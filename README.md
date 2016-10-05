@@ -1,5 +1,5 @@
 # spark-fim
-spark-fim is a library of scalable frequent itemset mining algorithms. It includes:
+spark-fim is a library of scalable frequent itemset mining algorithms based on Spark. It includes:
   + PHybridFIN - A parallel frequent itemset mining algorithm based on a novel data structure named HybridNodeset to represent itemsets. It achieves a significantly better performance on different datasets when the minimum support decreases comparing to the FP-Growth algorithm which is implemented in Spark MLlib.
 
 # Examples
